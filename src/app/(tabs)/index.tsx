@@ -1,4 +1,4 @@
-import { Drawer, Input } from '@/components'
+import { Avatar, Drawer, Input } from '@/components'
 import { View } from 'react-native'
 
 export default function Home() {
@@ -9,6 +9,12 @@ export default function Home() {
           <Drawer.Trigger />
         </Drawer>
         <Input.Field placeholder="Pesquisar no e-mail" />
+        <Avatar size="sm">
+          <Avatar.Fallback>MA</Avatar.Fallback>
+          <Avatar.Image
+            source={{ uri: 'https://github.com/mateuscorreiaazevedo.png' }}
+          />
+        </Avatar>
       </Input>
     </View>
   )
