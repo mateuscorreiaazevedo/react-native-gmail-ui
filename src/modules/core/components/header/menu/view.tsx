@@ -1,6 +1,6 @@
 import { Drawer } from '@/components'
 
-export function MenuDrawer() {
+export function MenuView() {
   return (
     <Drawer>
       <Drawer.Trigger />

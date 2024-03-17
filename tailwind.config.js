@@ -1,5 +1,4 @@
-import { colors } from './src/styles/colors'
-import { fontFamily } from './src/styles/font-family'
+import { theme } from './src/styles/theme'
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -8,8 +7,7 @@ module.exports = {
   presets: [require('nativewind/preset')],
   theme: {
     extend: {
-      fontFamily,
-      colors,
+      ...theme,
     },
   },
   plugins: [],

@@ -1,8 +1,8 @@
 import clsx from 'clsx'
 import { View } from 'react-native'
+import { AvatarContext } from './context'
 import { AvatarFallback } from './fallback'
 import { AvatarImage } from './image'
-import { AvatarContext } from './model'
 import { AvatarProps } from './types'
 
 function Avatar({ children, size = 'md' }: AvatarProps) {

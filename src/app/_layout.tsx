@@ -4,7 +4,7 @@ import { Slot } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 
-import { Loading } from '@/modules/core'
+import { Loading } from '@/components'
 import {
   Roboto_400Regular,
   Roboto_500Medium,

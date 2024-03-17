@@ -2,4 +2,5 @@
 export * from './avatar'
 export * from './drawer'
 export * from './input'
+export * from './loading'
 
